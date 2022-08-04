@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/estilos.css">
+    <link rel="stylesheet" href="./Css/index.css">
+    <script src="./Js/script.js"></script>
+    <title>Villa Irene</title>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <ul id="navbar">
+        <li><img id="icono" src="./Img/IconoB.png" alt="icono"></li>
+        <li class="ListaM">
+            <a href="#" class="Opciones">Inicio</a>
+                <div class="ListaM-Contenido">
+                    <a href="#Nosotros">Nosotros</a>
+                    <a href="#Contacto">Contacto</a>
+                </div>
+        </li>
+        <li><a href="Bizcocheria_Rotiseria.html" target="_top">Bizcocheria y Rotiseria</a></li>
+        <li><a href="Reposteria_Pasteleria.html" target="_top">Reposteria y Pasteleria</a></li>
+        <li><a href="Combos_Bebidas.html" target="_top">Combos y Bebidas</a></li>
+    </ul>
+
+    <!-- pagina -->
+
+    <!-- Bienvenida -->
+    <div id="Bienvenida" class="Bienvenida full">
+        <img src="./Img/BannerH.png" alt="BannerH">
+    </div>
+
+    <!-- Nosotros -->
+    <br id="Nosotros">
+    <br>
+    <div class="full">
+        <div class="Presentacion">
+            <img id="F1" src="./Img/Frente1.jpg" alt="Frente 1">
+            <h2>¿Quiénes somos?</h2>
+            <p id="parrafo1">
+                Somos una <span>bizcocheria Artesanal</span> con 5 años de experiencia en distintos ramas de la cocina como la panaderia, rotiseria, reposteria y pasteleria. Nuestros productos son elaborados en forma natural sin conservantes ni aditivos.
+                <br>
+                El local esta ubicado en una casona del año 1925 bautizada "Villa Irene". Dicho nombre fue el que adoptamos para nuestro comercio.
+                <br>
+
+                <ul>
+                    <li><span>Dueños:</span></li>
+                    <li>Actualmente los únicos dueños, que a la vez son la única mano de obra, son Patricia y Leonardo con 20 años de experiencia.</li>
+                </ul>
+            </p>
+            <p id="parrafo2">
+                <ul>
+                    <li><span>Horarios:</span></li>
+                    <li>Lunes a viernes de 7:30 hasta las 20:00</li>
+                    <li>Sábados de 7:30 hasta las 19:00</li>
+                </ul>
+            </p>
+            <img id="F2" src="./Img/Frente2.jpg" alt="Frente 2">
+        </div>
+    </div>
+
+    <br id="Contacto">
+    <br>
+    <div class="full">
+        <div id="cont2">
+            <div>
+                <img src="./Img/puerta.png" alt="puerta">
+            </div>
+            <div>
+                <form >
+                    <h1>No dudes en contactarnos:</h1>
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" name="nombre" placeholder="Ingrese un nombre" required> <br>
+                    <label for="email">Correo: </label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese un correo" required> <br>
+                    <label for="tematica">Temática: </label> 
+                        <select itemid="tematica" name="tematica" required>
+                            <option value="">-- Elige un tema --</option>
+                            <option value="Consulta">Consulta</option>
+                            <option value="Propuesta">Provedor</option>
+                            <option value="Reporte">Comentarios</option>
+                        </select> <br>
+                    <label for="cuerpo">Cuerpo: </label><br>
+                    <textarea id="cuerpo" name="cuerpo" rows="4" cols="50" placeholder="Ingrese una opinion/consulta/tema" required></textarea> <br>
+                    <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de Pagina -->
+    <div class="Pie_Pagina">
+        <div class="Redes">
+              <p>Redes sociales: <a href="https://www.instagram.com/b_villa_irene/" target="_blank">Instagram</a></p>
+              <p>Contactos: 098 093 458</p>
+              <p>Email: hotmail@hotmail.com</p>
+        </div>
+        <div class="Ubicacion">
+          <p>Haga click <a href="https://www.google.com.uy/maps/place/Av.+Gral.+San+Martín+3188,+11700+Montevideo,+Departamento+de+Montevideo/@-34.8676985,-56.1830768,17z/data=!4m5!3m4!1s0x959f8074ade6665f:0x4855740a92960a8e!8m2!3d-34.8677029!4d-56.1808881?hl=es-419" target="_blank">aquí</a> para visualizar mejor el mapa</p>
+        </div>
+        <div class="Ubicacion">
+          <img src="./Img/mapita.png" alt="mapa">
+        </div>
+      </div>
+
+</body>
+
+</html>
