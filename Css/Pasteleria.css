@@ -72,7 +72,7 @@ img {
 
   display: flex;
   flex-wrap: nowrap; /* Nos permite contorlar la ubicacion de los elementos y sus descendencia, wrap nos los ubica en varias lineas mientras que nowrap los obligara a estar en una (se sale de la pantalla)*/
-  justify-content: space-around; /* Propiedad para darle alineacion a elementos flex, space-around les da espaco antes, entre ellos y despues*/
+  justify-content: space-around; /* Propiedad para darle alineacion a elementos flex, space-around les da espacio antes, entre ellos y despues*/
 }
 
 /* Fila de fotos chicas */
@@ -90,7 +90,7 @@ img {
 .modal:target { /*Esto esta mas centrado al fondo que a la foto en si, :target sirve para darle una "accion" a un elemento cuando su id este al final del url */
   display: block;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.8); /* Las tres prieras ranuras son el color (#000 es el codigo del negro), mientras que la ultima es la opacidad del color */
+  background-color: rgba(0, 0, 0, 0.8); /* Las tres primeras ranuras son el color (#000 es el codigo del negro), mientras que la ultima es la opacidad del color */
   top: 0; /* Marcan la distancia que tiene el elemento fix o absolute con su left, top, bottom, right*/
   left: 0;
   width: 100%; /*Cuando se hace "zoom" a la imagen, el efecto ocupa toda la pantalla*/
