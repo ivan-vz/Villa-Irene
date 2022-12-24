@@ -1,0 +1,329 @@
+{
+    "tortas": [
+        {
+            "ejemplares": ["./img/reposteria/pos1.jpg", "./img/reposteria/pos2.jpg", "./img/reposteria/pos3.jpg", "./img/reposteria/pos4.jpg", "./img/reposteria/pos5.jpg", "./img/reposteria/pos6.jpg", "./img/reposteria/pos7.jpg", "./img/reposteria/pos8.jpg"]
+        }
+    ],
+    "bizcochos": {
+        "dulces": [
+            {
+                "nombre": "Común",
+                "desripcion": "Masa dulce sin relleno",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Membrillo",
+                "desripcion": "Masa dulce rellena de dulce de membrillo",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Dulce de leche",
+                "desripcion": "Masa dulce rellena de dulce de leche y cubierto con hilos de chocolate",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Chocolate",
+                "desripcion": "Masa de vainilla y chocolate rellena de chocolate",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Naranja",
+                "desripcion": "Masa dulce rellena de dulce casero de naranja",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Galleta dulce",
+                "desripcion": "Tambien conocida como cara sucia",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Margarita",
+                "desripcion": "Masa dulce con crema de vainilla casera",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Manzana",
+                "desripcion": "Margarita con Manzana y canela",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            }
+        ],
+        "salados": [
+            {
+                "nombre": "Común",
+                "desripcion": "Masa salada sin relleno",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Queso",
+                "desripcion": "Masa salada rellena de queso",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Jamón",
+                "desripcion": "Masa salada rellena de jamón",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Mixto",
+                "desripcion": "Masa salada rellena de queso y jamón",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Salame",
+                "desripcion": "Masa salada rellena de salame",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Aceituna",
+                "desripcion": "Masa salada rellena de aceitunas verdes",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Pan con grasa",
+                "desripcion": "Tambien conocido como cuernito y único producto que contiene grasa. A su vez ofrecemos su variante con chicharrón",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Mostaza",
+                "desripcion": "Masa salada rellena de orégano y mostaza",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            },
+            {
+                "nombre": "Cremona",
+                "desripcion": "Es un tipo de galleta ojaldrada",
+                "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+            }
+        ]
+    },
+    "panes": [
+        {
+            "nombre": "Flauta",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Catalan",
+            "desripcion": "Pan chico  de miga blanda",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Tortuga",
+            "desripcion": "Pan redondo para hamburguesas",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Malteada sin sal",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        }
+    ],
+    "tartas": [
+        {
+            "nombre": "Pollo y puerro",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Pascualina",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Jamón y queso",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        }
+    ],
+    "Sandwiches": [
+        {
+            "nombre": "Jamón y queso",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Olimpico",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        }
+    ],
+    "Budines": [
+        {
+            "nombre": "Inegral",
+            "desripcion": "Producido con harina integral y pasas",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Anis",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Manzana",
+            "desripcion": "Bizcochuelo cubierto de manzana, azucar y canela",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Banana",
+            "desripcion": "Bizcochuelo dulce con banana",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Semillas",
+            "desripcion": "Bizcochuelo dulce con semillas de lino, sesamo y chía",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        }
+    ],
+    "varios-dulces": [
+        {
+            "nombre": "Flan",
+            "desripcion": "Flan cubierto de dulce de leche y caramelo",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Milhojas",
+            "desripcion": "Masa de hojaldre con dulce de leche",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Tarteleta",
+            "desripcion": "De dulce de leche y chocolate",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Herraduras",
+            "desripcion": "Relleno de dulce de leche con detalles en chocolate",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Alfajores",
+            "desripcion": "Yoyos, de maizena y de mani con chocolate",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Donas",
+            "desripcion": "Cubiertas de chocolate y pastillistas",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Pastafrola",
+            "desripcion": "Rellenas de membrillo o mermelada de durazno",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Polvorones",
+            "desripcion": "",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Caritas",
+            "desripcion": "",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Tarta",
+            "desripcion": "Rellenas de manzana",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Massini",
+            "desripcion": "De cafe y comun",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        },
+        {
+            "nombre": "Cupcake",
+            "desripcion": "Rellenos de dulce de lecho y cubiertos por crema batida",
+            "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
+        }
+    ],
+    "varios-salados": [
+        {
+            "nombre": "Empanadas",
+            "desripcion": "De carne, pollo o jamón y queso",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Medialuna de jamón y queso",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        },
+        {
+            "nombre": "Milanesa de pollo al pan",
+            "desripcion": "",
+            "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
+        }
+    ],
+    "Combos": [
+        {
+            "nombre": "1",
+            "desripcion": "Cafe largo + 3 bizcochos",
+            "img": []
+        },
+        {
+            "nombre": "2",
+            "desripcion": "Capuchino + 3 bizcochos",
+            "img": []
+        },
+        {
+            "nombre": "3",
+            "desripcion": "Chocolate + 3 bizcochos",
+            "img": []
+        }
+    ],
+    "Bebidas": [
+        {
+            "nombre": "Refrescos",
+            "tipos": [
+                {
+                    "nombre": "Salus",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                },
+                {
+                    "nombre": "Matutina",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                },
+                {
+                    "nombre": "Coca Cola",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                },
+                {
+                    "nombre": "Pepsi",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                },
+                {
+                    "nombre": "Maxi Fruta",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                },
+                {
+                    "nombre": "Colet",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                }
+            ]
+        },
+        {
+            "nombre": "Calientes",
+            "tipos": [
+                {
+                    "nombre": "Cafe largo",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                },
+                {
+                    "nombre": "Capuchino",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                },
+                {
+                    "nombre": "Chocolate",
+                    "desripcion": "",
+                    "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
+                }
+            ]
+        }
+    ]
+}

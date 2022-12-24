@@ -1,17 +1,17 @@
-  body {
-    margin: 0; /* De primeras todo tiene un margen y un padding preestablecido */
-    padding: 0;
-    background-color: #F7F9F9;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
+ body {
+   margin: 0; /* De primeras todo tiene un margen y un padding preestablecido */
+   padding: 0;
+   background-color: #F7F9F9;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
 
-    /* Inicio */
-
- .total {
+ /* Inicio */
+ /*
+.total {
   margin-top: 4em;
 }
 
-  /* Menu */
+  /* Menu 
   #navbar {
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2; /* Para que quede sobre los demas elementos (es como elevarlo) */
+    z-index: 2; /* Para que quede sobre los demas elementos (es como elevarlo) 
   }
   
   #navbar li {
@@ -66,12 +66,12 @@
   text-align: left;
   }
 
-  /* Imagenes */
+  /* Imagenes 
   #icono {
     width: 3vw;
   }
 
-  /* Pie de pagina */
+  /* Pie de pagina 
   .Pie_Pagina {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -93,3 +93,4 @@
   .Ubicacion img {
     width: 60%;
   }
+*/

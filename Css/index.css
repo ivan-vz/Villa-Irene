@@ -1,11 +1,90 @@
-/* Inicio- Nosotros */
+a {
+  text-decoration: none;
+}
 
-#Bienvenida img{ /* Imagen de fondo */
+#iconosNC {
+  background: linear-gradient(#212529 , #F7F9F9);
+}
+
+.noOpacidad{
+  opacity: 0;
+}
+
+.aparecer{
+ animation-name: aparecer;
+ animation-duration: 1s;
+}
+
+
+.desaparecer{
+  animation-name: desaparecer;
+  animation-duration: 1s;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+}
+  20%{
+    opacity: 0.2;
+  }
+  40%{
+    opacity: 0.4;
+  }
+  60%{
+    opacity: 0.6;
+  }
+  80%{
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+    display: block;
+}
+}
+
+@keyframes desaparecer {
+  0% {
+    opacity: 1;
+}
+  20%{
+    opacity: 0.8;
+  }
+  40%{
+    opacity: 0.6;
+  }
+  60%{
+    opacity: 0.4;
+  }
+  80%{
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+}
+}
+
+/*
+.mostrarNosotros{
+  animation: irseDerecha 2s;
+  animation: ocultar 1s;
+  animation: mostrarIzquierda 2s;
+}
+
+.mostrarContactos{
+  animation: irseArriba 2s;
+  animation: ocultar 1s;
+  animation: mostrarAbajo 2s;
+}
+/* Inicio- Nosotros
+
+#Bienvenida img{ /* Imagen de fondo 
   width: 100%;
 }
 
-.full { /* Para que los elemento con clase full ocupen toda la pantalla */
-  height: 100vh; /* vh unidad relativa al 1% de la pantalla ==> 100vh y 100vw equivale  ocupar toda la pestaña visible*/
+.full { /* Para que los elemento con clase full ocupen toda la pantalla 
+  height: 100vh; /* vh unidad relativa al 1% de la pantalla ==> 100vh y 100vw equivale  ocupar toda la pestaña visible
 }
 
 .Presentacion {
@@ -30,11 +109,11 @@ line-height: 1.5em;
 text-align: justify;
 }
 
-.Presentacion #parrafo2 { /* Separacion entre parrafos */
+.Presentacion #parrafo2 { /* Separacion entre parrafos 
   margin-top: 6em;
 }
 
-.Presentacion #F1{ /* Foto de la izquierda */
+.Presentacion #F1{ /* Foto de la izquierda 
   width: 25%;
   float: left;
   margin-left: 3%;
@@ -42,12 +121,12 @@ text-align: justify;
   border-radius: 5%;
 }
 
-.Presentacion #F2{ /* Foto de la derecha */
+.Presentacion #F2{ /* Foto de la derecha 
   width: 40%;
   float: right;
   margin-left: 3%;
   margin-right: 3%;
-  margin-top: -8em; /* Para que corregir  la posicion de la foto respecto al desplazamiento del parrafo 2 */
+  margin-top: -8em; /* Para que corregir  la posicion de la foto respecto al desplazamiento del parrafo 2 
   border-radius: 5%
 }
 
@@ -55,7 +134,7 @@ text-align: justify;
   list-style: none;
 }
 
-/* Formulario de Contacto */
+/* Formulario de Contacto 
 form {
   margin-left: 35%;
   align-self: right;
@@ -71,7 +150,7 @@ form input, form select, form textarea {
 }
 
 #cont2 div{
-  display: inline-block; /* Para que esten uno al lado del otro (block los pone una arriba del otro) */
+  display: inline-block; /* Para que esten uno al lado del otro (block los pone una arriba del otro) 
   vertical-align: middle;
 }
 
@@ -79,8 +158,10 @@ form input, form select, form textarea {
   width: 80%;
 }
 
-/* Visualizacion del footer */
-img {
-  height: 100%;
-}
+/* Visualizacion del footer 
 
+
+#cuerpoInicio{
+  background: linear-gradient(white, #F7F9F9);
+}
+*/
