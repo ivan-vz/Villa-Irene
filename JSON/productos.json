@@ -1,9 +1,7 @@
 {
-    "tortas": [
-        {
-            "ejemplares": ["./img/reposteria/pos1.jpg", "./img/reposteria/pos2.jpg", "./img/reposteria/pos3.jpg", "./img/reposteria/pos4.jpg", "./img/reposteria/pos5.jpg", "./img/reposteria/pos6.jpg", "./img/reposteria/pos7.jpg", "./img/reposteria/pos8.jpg"]
-        }
-    ],
+    "tortas":{
+            "ejemplares": [["./img/reposteria/pos1.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"], ["./img/reposteria/pos2.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"], ["./img/reposteria/pos3.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"], ["./img/reposteria/pos4.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"], ["./img/reposteria/pos5.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"], ["./img/reposteria/pos6.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"], ["./img/reposteria/pos7.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"], ["./img/reposteria/pos8.jpg", "./img/reposteria/torta1.jpg", "./img/reposteria/torta2.png"]]
+        },
     "bizcochos": {
         "dulces": [
             {
@@ -134,7 +132,7 @@
             "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
         }
     ],
-    "Sandwiches": [
+    "sandwiches": [
         {
             "nombre": "Jamón y queso",
             "desripcion": "",
@@ -146,7 +144,7 @@
             "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
         }
     ],
-    "Budines": [
+    "budines": [
         {
             "nombre": "Inegral",
             "desripcion": "Producido con harina integral y pasas",
@@ -173,7 +171,7 @@
             "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
         }
     ],
-    "varios-dulces": [
+    "varios_Dulces": [
         {
             "nombre": "Flan",
             "desripcion": "Flan cubierto de dulce de leche y caramelo",
@@ -235,7 +233,7 @@
             "img": [ "./img/reposteria/r1.jpg", "./img/reposteria/r2.png", "./img/reposteria/r3.jpg", "./img/reposteria/r4.jpg"]
         }
     ],
-    "varios-salados": [
+    "varios_Salados": [
         {
             "nombre": "Empanadas",
             "desripcion": "De carne, pollo o jamón y queso",
@@ -252,27 +250,25 @@
             "img": ["./img/bizcocheria/b1.jpg", "./img/bizcocheria/b2.jpg", "./img/bizcocheria/b3.jpg", "./img/bizcocheria/b4.jpg", "./img/bizcocheria/b5.jpg"]
         }
     ],
-    "Combos": [
+    "combos": [
         {
             "nombre": "1",
             "desripcion": "Cafe largo + 3 bizcochos",
-            "img": []
+            "img": ["./img/combos/c5.png"]
         },
         {
             "nombre": "2",
             "desripcion": "Capuchino + 3 bizcochos",
-            "img": []
+            "img": ["./img/combos/c5.png"]
         },
         {
             "nombre": "3",
             "desripcion": "Chocolate + 3 bizcochos",
-            "img": []
+            "img": ["./img/combos/c5.png"]
         }
     ],
-    "Bebidas": [
-        {
-            "nombre": "Refrescos",
-            "tipos": [
+    "bebidas":{
+            "frias": [
                 {
                     "nombre": "Salus",
                     "desripcion": "",
@@ -303,11 +299,8 @@
                     "desripcion": "",
                     "img": ["./img/combos/c1.jpg", "./img/combos/c2.jpg", "./img/combos/c3.jpg", "./img/combos/c4.jpg"]
                 }
-            ]
-        },
-        {
-            "nombre": "Calientes",
-            "tipos": [
+            ],
+            "calientes": [
                 {
                     "nombre": "Cafe largo",
                     "desripcion": "",
@@ -325,5 +318,4 @@
                 }
             ]
         }
-    ]
 }

@@ -1,12 +1,23 @@
-
-/* Contenedor Grid/ conjunto de los cuadraditos con contenido */
+#cuadradoVerde{
+  position: absolute;
+  background-color: green;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 20px;
+}
+/*#tortas img:hover{
+  transform: translate(0, 0) scale(1.5);
+}
+/* Contenedor Grid/ conjunto de los cuadraditos con contenido 
   .mercancia {
     display: grid;
-    grid-template-columns: auto auto auto; /* Cada auto representa una columna */
+    grid-template-columns: auto auto auto; /* Cada auto representa una columna 
     margin-left: 5%;
   }
 
-/* Cada uno de los cuadraditos */
+/* Cada uno de los cuadraditos 
   .producto {
     border: none;
     padding: 1em;
@@ -14,17 +25,17 @@
     text-align: center;
   }
 
-/* Dibujos de la carta */
+/* Dibujos de la carta 
 img {
     width: 100%;
     height: 100%;
 }
 
-/* Carta */
+/* Carta 
 .Carta {
     width: 10em;
     height: 8em;
-    perspective: 40em; /* Le da la perpectiva al giro del cuadradito */
+    perspective: 40em; /* Le da la perpectiva al giro del cuadradito 
   }
   
   .interiorCarta {
@@ -33,7 +44,7 @@ img {
     height: 100%;
     text-align: center;
     transition: 0.8s;
-    transform-style: preserve-3d; /* preserve-3d hace que los hijos del elemento tambien tomen este efecto, sin el se hace el giro pero no se cambia de contenido */
+    transform-style: preserve-3d; /* preserve-3d hace que los hijos del elemento tambien tomen este efecto, sin el se hace el giro pero no se cambia de contenido 
   }
 
   .Carta:hover .interiorCarta {
@@ -44,13 +55,13 @@ img {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; /* Sin esto las carta flip no funcionarian ya que se veria la carta de atras */
+    backface-visibility: hidden; /* Sin esto las carta flip no funcionarian ya que se veria la carta de atras 
   }
 
   .Cruz {
     background-color: white;
     color: black;
-    transform: rotateY(180deg); /* vuelve al lugar sola, sin esto falla el efecto */
+    transform: rotateY(180deg); /* vuelve al lugar sola, sin esto falla el efecto 
   }
 
 .larga ul {
@@ -58,42 +69,42 @@ img {
   list-style: none;
 }
 
-/* Galeria */
+/* Galeria 
 
 #catalogo {
   text-align: center;
   text-decoration: underline;
 }
 
-.galeria { /* Fila de foto chiquitas */
+.galeria { /* Fila de foto chiquitas 
   width: 100%;
   list-style: none;
-  box-sizing: border-box; /* Propiedad que nos permite incluir el padding y margen en el width y heigth total ==> al agregar padding, por ejemplo, este no modifica el espacio que ocupa el objeto*/ 
+  box-sizing: border-box; /* Propiedad que nos permite incluir el padding y margen en el width y heigth total ==> al agregar padding, por ejemplo, este no modifica el espacio que ocupa el objeto 
 
   display: flex;
-  flex-wrap: nowrap; /* Nos permite contorlar la ubicacion de los elementos y sus descendencia, wrap nos los ubica en varias lineas mientras que nowrap los obligara a estar en una (se sale de la pantalla)*/
-  justify-content: space-around; /* Propiedad para darle alineacion a elementos flex, space-around les da espacio antes, entre ellos y despues*/
+  flex-wrap: nowrap; /* Nos permite contorlar la ubicacion de los elementos y sus descendencia, wrap nos los ubica en varias lineas mientras que nowrap los obligara a estar en una (se sale de la pantalla)
+  justify-content: space-around; /* Propiedad para darle alineacion a elementos flex, space-around les da espacio antes, entre ellos y despues
 }
 
-/* Fila de fotos chicas */
+/* Fila de fotos chicas 
 .galeria img {
   width: 80%;
   height: 80%;
 }
 
 
-/* Estilo del Modal */
+/* Estilo del Modal 
 .modal {
   display: none;
 }
 
-.modal:target { /*Esto esta mas centrado al fondo que a la foto en si, :target sirve para darle una "accion" a un elemento cuando su id este al final del url */
+.modal:target { /*Esto esta mas centrado al fondo que a la foto en si, :target sirve para darle una "accion" a un elemento cuando su id este al final del url 
   display: block;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.8); /* Las tres primeras ranuras son el color (#000 es el codigo del negro), mientras que la ultima es la opacidad del color */
-  top: 0; /* Marcan la distancia que tiene el elemento fix o absolute con su left, top, bottom, right*/
+  background-color: rgba(0, 0, 0, 0.8); /* Las tres primeras ranuras son el color (#000 es el codigo del negro), mientras que la ultima es la opacidad del color 
+  top: 0; /* Marcan la distancia que tiene el elemento fix o absolute con su left, top, bottom, right
   left: 0;
-  width: 100%; /*Cuando se hace "zoom" a la imagen, el efecto ocupa toda la pantalla*/
+  width: 100%; /*Cuando se hace "zoom" a la imagen, el efecto ocupa toda la pantalla
   height: 100%;
 }
 
@@ -101,11 +112,11 @@ img {
   margin: auto;
   margin-top: 4em;
   display: flex;
-  justify-content: center; /*Centra todo*/
-  align-items: center; /* Alinea todos los elementos en base a su mitad*/
+  justify-content: center; /*Centra todo
+  align-items: center; /* Alinea todos los elementos en base a su mitad
 }
 
-/* Esta corresponde a las flechas < > */
+/* Esta corresponde a las flechas < > 
 .imagen a {
   color: white;
   font-size: 2em;
@@ -114,7 +125,7 @@ img {
   margin-right: 1em;
 }
 
-/* Foto con "zoom" */
+/* Foto con "zoom" 
 .imagen img {
   width: 12em;
   border: 7px solid white;
@@ -125,7 +136,7 @@ img {
   width: 9.68em;
 }
 
-/* Boton con la X */
+/* Boton con la X 
 .cerrar {
   display: block;
   background-color: white;
@@ -138,3 +149,4 @@ img {
   border-radius: 50%;
   line-height: 2em;
 }
+*/
